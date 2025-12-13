@@ -315,7 +315,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="heading-2 mb-4" style={{ color: 'white' }}>AI Digital Twin</h3>
+              <h3 className="heading-2 mb-4" style={{ color: 'white' }}>Digital Twin</h3>
               <p className="body-small" style={{ color: 'rgba(255,255,255,0.7)' }}>Enterprise AI avatar solutions for modern businesses.</p>
             </div>
             
