@@ -104,13 +104,13 @@ export const caseStudies = [
 export const blogPosts = [
   {
     id: 1,
-    title: "The Future of Virtual Representation: AI Avatars in 2025",
+    title: "The Future of Virtual Representation: AI Avatars in 2026",
     excerpt: "Explore how AI avatar technology is reshaping digital identity and virtual presence across industries. From corporate training to customer service.",
     author: "Dr. James Wilson",
     date: "2025-02-15",
     readTime: "8 min read",
     category: "Technology",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop"
+    image: "https://i.ibb.co.com/3mR09LXt/Digital-Humans-A-2021-Artificial-Intelligence-AI-Trend-Explained-Respeecher-voice-cloning-software.webp"
   },
   {
     id: 2,
@@ -130,7 +130,7 @@ export const blogPosts = [
     date: "2025-02-05",
     readTime: "12 min read",
     category: "Technical",
-    image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&h=400&fit=crop"
+    image: "https://i.ibb.co.com/jkgwYZP1/slide10-1536x794.webp"
   }
 ];
 
