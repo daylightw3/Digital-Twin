@@ -22,8 +22,12 @@ const Home = () => {
         WebkitBackdropFilter: 'blur(8px)'
       }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-full flex items-center justify-between">
-          <div className="text-2xl font-bold" style={{ color: 'var(--text-primary)' }}>
-            AI Digital Twin
+          <div className="flex items-center">
+            <img 
+              src="https://i.ibb.co.com/3mtccMQL/images-removebg-preview.png" 
+              alt="Digital Twin" 
+              className="h-12 w-auto"
+            />
           </div>
           
           {/* Desktop Navigation */}
