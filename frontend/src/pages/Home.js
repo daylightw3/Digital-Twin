@@ -350,8 +350,8 @@ const Home = () => {
             <div>
               <h4 className="body-medium font-semibold mb-4">Contact</h4>
               <ul className="space-y-2">
-                <li className="body-small" style={{ color: 'rgba(255,255,255,0.7)' }}>contact@aicloneavatar.com</li>
-                <li className="body-small" style={{ color: 'rgba(255,255,255,0.7)' }}>+1 (555) 123-4567</li>
+                <li className="body-small" style={{ color: 'rgba(255,255,255,0.7)' }}>khaled.ismail@tlapartners.com</li>
+                <li className="body-small" style={{ color: 'rgba(255,255,255,0.7)' }}>+971 56 1775517</li>
               </ul>
             </div>
           </div>
