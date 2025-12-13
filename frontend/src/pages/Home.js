@@ -75,7 +75,7 @@ const Home = () => {
           </div>
           
           <h1 className="heading-hero mb-6">
-            Transform Your Business with AI Digital Twins
+            Transform Your Business with Digital Twins
           </h1>
           
           <p className="body-large mb-8 max-w-2xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
