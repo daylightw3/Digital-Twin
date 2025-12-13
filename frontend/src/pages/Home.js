@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Download, Play, Star, Check, ArrowRight, Menu, X } from 'lucide-react';
 import { services, testimonials, caseStudies, blogPosts } from '../mock';
 import { Button } from '../components/ui/button';
@@ -8,6 +8,20 @@ import { InlineWidget } from 'react-calendly';
 
 const Home = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const handleDownload = (caseStudy) => {
     toast.success(`Downloading: ${caseStudy.title}`);
