@@ -6,28 +6,32 @@ export const services = [
     title: "AI Static Avatar",
     description: "Professional static avatars for presentations, profile pictures, and digital identity. Perfect for consistent brand representation.",
     accent: "accent-purple",
-    features: ["High-resolution output", "Multiple poses", "Brand customization", "Fast delivery"]
+    features: ["High-resolution output", "Multiple poses", "Brand customization", "Fast delivery"],
+    demoUrl: "https://www.linkedin.com/posts/khaled-m-ismail-7415b21_afb-avatarsforbusiness-toughloveadvisors-activity-7370698271712940032-bnZr?utm_source=share&utm_medium=member_desktop&rcm=ACoAADf9VFYBx2UzNi9cHDnxY_2XfAv0WTQi2sI"
   },
   {
     id: 2,
     title: "Motion Avatar",
     description: "Dynamic animated avatars with realistic movements and gestures. Ideal for video content and interactive presentations.",
     accent: "accent-blue",
-    features: ["Natural animations", "Custom gestures", "Lip-sync capable", "Multiple formats"]
+    features: ["Natural animations", "Custom gestures", "Lip-sync capable", "Multiple formats"],
+    demoUrl: "https://www.linkedin.com/posts/khaled-m-ismail-7415b21_ai-avatars-businesscommunication-activity-7342806022333292545-_JTc?utm_source=share&utm_medium=member_desktop&rcm=ACoAADf9VFYBx2UzNi9cHDnxY_2XfAv0WTQi2sI"
   },
   {
     id: 3,
     title: "Streaming Interactive Avatar",
     description: "Real-time interactive avatars for live streaming, virtual meetings, and customer engagement. Powered by advanced AI.",
     accent: "accent-orange",
-    features: ["Real-time interaction", "Voice-driven", "Multi-platform support", "Low latency"]
+    features: ["Real-time interaction", "Voice-driven", "Multi-platform support", "Low latency"],
+    demoUrl: "https://ipackavatar.netlify.app/"
   },
   {
     id: 4,
     title: "Photo to Video Avatar",
     description: "Transform static photos into dynamic video avatars. Bring any image to life with realistic facial animations and speech.",
     accent: "accent-pink",
-    features: ["Photo animation", "Voice synthesis", "Expression control", "HD quality"]
+    features: ["Photo animation", "Voice synthesis", "Expression control", "HD quality"],
+    demoUrl: "https://www.linkedin.com/posts/khaled-m-ismail-7415b21_a-photo-now-can-actually-say-a-thousand-words-activity-7356589671126073346-9GuA?utm_source=share&utm_medium=member_desktop&rcm=ACoAADf9VFYBx2UzNi9cHDnxY_2XfAv0WTQi2sI"
   }
 ];
 
