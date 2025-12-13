@@ -98,7 +98,7 @@ const Home = () => {
               <div key={service.id} className={`voice-card ${service.accent}`}>
                 <h3 className="heading-2 mb-3">{service.title}</h3>
                 <p className="body-small mb-4" style={{ color: 'var(--text-secondary)' }}>{service.description}</p>
-                <ul className="space-y-2">
+                <ul className="space-y-2 mb-4">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="flex items-center gap-2 caption">
                       <Check size={16} style={{ color: 'var(--text-primary)' }} />
@@ -106,6 +106,15 @@ const Home = () => {
                     </li>
                   ))}
                 </ul>
+                <a 
+                  href={service.demoUrl} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="btn-primary inline-flex items-center gap-2 w-full justify-center"
+                >
+                  <Play size={16} />
+                  See Demo
+                </a>
               </div>
             ))}
           </div>
