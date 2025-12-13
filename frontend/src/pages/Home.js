@@ -323,7 +323,7 @@ const Home = () => {
           
           <div className="pt-8 border-t" style={{ borderColor: 'rgba(255,255,255,0.2)' }}>
             <p className="text-center caption" style={{ color: 'rgba(255,255,255,0.7)' }}>
-              © 2025 AI Digital Twin. All rights reserved.
+              © 2025 Digital Twin. All rights reserved.
             </p>
           </div>
         </div>
