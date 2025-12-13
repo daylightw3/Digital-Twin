@@ -126,58 +126,19 @@ const Home = () => {
       </section>
 
       {/* Booking Section */}
-      <section id="booking" className="py-24 px-4 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, rgba(252, 202, 199, 0.3) 0%, rgba(249, 232, 250, 0.4) 50%, rgba(228, 237, 248, 0.3) 100%)' }}>
-        {/* Decorative Elements */}
-        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-purple-200/20 to-pink-200/20 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-blue-200/20 to-purple-200/20 rounded-full blur-3xl"></div>
-        
-        <div className="max-w-6xl mx-auto relative z-10">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6" style={{
-              background: 'rgba(255, 255, 255, 0.6)',
-              backdropFilter: 'blur(8px)',
-              WebkitBackdropFilter: 'blur(8px)',
-              border: '1px solid rgba(0, 0, 0, 0.05)'
-            }}>
-              <span className="caption" style={{ textTransform: 'uppercase', letterSpacing: '0.025em', fontWeight: '600' }}>Limited Slots Available</span>
-            </div>
-            <h2 className="heading-hero mb-6">Experience the Future of AI Digital Twins</h2>
-            <p className="body-large mb-4" style={{ color: 'var(--text-secondary)', maxWidth: '700px', margin: '0 auto' }}>
-              Book your personalized 30-minute demo and discover how AI Digital Twins can transform your business operations
-            </p>
-            <div className="flex flex-wrap justify-center gap-6 mt-8">
-              <div className="flex items-center gap-2">
-                <div className="w-10 h-10 rounded-full flex items-center justify-center" style={{ background: 'var(--accent-purple-200)' }}>
-                  <Check size={20} style={{ color: 'var(--text-primary)' }} />
-                </div>
-                <span className="body-small font-medium">No Credit Card Required</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-10 h-10 rounded-full flex items-center justify-center" style={{ background: 'var(--accent-blue-200)' }}>
-                  <Check size={20} style={{ color: 'var(--text-primary)' }} />
-                </div>
-                <span className="body-small font-medium">Instant Confirmation</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-10 h-10 rounded-full flex items-center justify-center" style={{ background: 'var(--accent-orange-200)' }}>
-                  <Check size={20} style={{ color: 'var(--text-primary)' }} />
-                </div>
-                <span className="body-small font-medium">Expert Consultation</span>
-              </div>
-            </div>
+      <section id="booking" className="py-20 px-4" style={{ background: 'var(--bg-section)' }}>
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="heading-1 mb-4">Book Your Demo</h2>
+            <p className="body-large" style={{ color: 'var(--text-secondary)' }}>Schedule a personalized demonstration with our team</p>
           </div>
           
-          <Card className="hover-lift shadow-2xl" style={{ 
-            background: 'rgba(255, 255, 255, 0.95)',
-            backdropFilter: 'blur(16px)',
-            WebkitBackdropFilter: 'blur(16px)',
-            border: '2px solid rgba(255, 255, 255, 0.8)'
-          }}>
+          <Card className="hover-lift">
             <CardContent className="p-0">
               <InlineWidget 
                 url="https://calendly.com/saifullahkhanmasud007/30min"
                 styles={{
-                  height: '750px',
+                  height: '700px',
                   width: '100%'
                 }}
                 pageSettings={{
