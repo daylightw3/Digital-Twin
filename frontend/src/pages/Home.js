@@ -23,7 +23,7 @@ const Home = () => {
       }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-full flex items-center justify-between">
           <div className="text-2xl font-bold" style={{ color: 'var(--text-primary)' }}>
-            AI Clone Avatar
+            AI Digital Twin
           </div>
           
           {/* Desktop Navigation */}
