@@ -30,17 +30,26 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 h-20" style={{
-        background: 'var(--bg-overlay)',
-        backdropFilter: 'blur(8px)',
-        WebkitBackdropFilter: 'blur(8px)'
-      }}>
+      <header 
+        className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
+        style={{
+          height: isScrolled ? '60px' : '80px',
+          background: 'var(--bg-overlay)',
+          backdropFilter: 'blur(8px)',
+          WebkitBackdropFilter: 'blur(8px)',
+          boxShadow: isScrolled ? '0 2px 8px rgba(0, 0, 0, 0.08)' : 'none'
+        }}
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-full flex items-center justify-between">
-          <div className="flex items-center">
+          <div className="flex items-center transition-all duration-300">
             <img 
               src="https://i.ibb.co.com/3mtccMQL/images-removebg-preview.png" 
               alt="Digital Twin" 
-              className="h-12 w-auto"
+              style={{
+                height: isScrolled ? '36px' : '48px',
+                width: 'auto',
+                transition: 'height 0.3s ease'
+              }}
             />
           </div>
           
