@@ -74,7 +74,10 @@ const Home = () => {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="md:hidden absolute top-20 left-0 right-0 bg-white shadow-lg p-6">
+          <div 
+            className="md:hidden absolute left-0 right-0 bg-white shadow-lg p-6 transition-all duration-300"
+            style={{ top: isScrolled ? '60px' : '80px' }}
+          >
             <nav className="flex flex-col gap-4">
               <a href="#services" className="body-medium" onClick={() => setMobileMenuOpen(false)}>Services</a>
               <a href="#testimonials" className="body-medium" onClick={() => setMobileMenuOpen(false)}>Testimonials</a>
