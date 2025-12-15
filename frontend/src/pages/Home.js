@@ -42,15 +42,18 @@ const Home = () => {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-full flex items-center justify-between">
           <div className="flex items-center transition-all duration-300">
-            <img 
-              src="https://i.ibb.co.com/3mtccMQL/images-removebg-preview.png" 
-              alt="Digital Twin" 
-              style={{
-                height: isScrolled ? '36px' : '48px',
-                width: 'auto',
-                transition: 'height 0.3s ease'
-              }}
-            />
+            <a href="https://tlapartners.com/" target="_blank" rel="noopener noreferrer">
+              <img 
+                src="https://i.ibb.co.com/4RqJkw6K/images-removebg-preview-1.png" 
+                alt="TOUGHLOVE" 
+                style={{
+                  height: isScrolled ? '36px' : '48px',
+                  width: 'auto',
+                  transition: 'height 0.3s ease',
+                  cursor: 'pointer'
+                }}
+              />
+            </a>
           </div>
           
           {/* Desktop Navigation */}
@@ -315,7 +318,12 @@ const Home = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="heading-2 mb-4" style={{ color: 'white' }}>Digital Twin</h3>
+              <div className="flex items-center gap-3 mb-4">
+                <a href="https://tlapartners.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="https://i.ibb.co.com/4RqJkw6K/images-removebg-preview-1.png" alt="TOUGHLOVE" className="h-12 w-12" style={{ cursor: 'pointer' }} />
+                </a>
+                <h3 className="heading-2" style={{ color: 'white' }}>TOUGHLOVE</h3>
+              </div>
               <p className="body-small" style={{ color: 'rgba(255,255,255,0.7)' }}>Enterprise AI avatar solutions for modern businesses.</p>
             </div>
             
@@ -349,7 +357,7 @@ const Home = () => {
           
           <div className="pt-8 border-t" style={{ borderColor: 'rgba(255,255,255,0.2)' }}>
             <p className="text-center caption" style={{ color: 'rgba(255,255,255,0.7)' }}>
-              © 2025 Digital Twin. All rights reserved.
+              © 2025 TOUGHLOVE. All rights reserved.
             </p>
           </div>
         </div>
